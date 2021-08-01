@@ -1,0 +1,29 @@
+local LagswitchGUI = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local Deco = Instance.new("TextLabel")
+
+LagswitchGUI.Name = "LagswitchGUI"
+LagswitchGUI.Parent = game.CoreGui
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = LagswitchGUI
+MainFrame.Active = true
+MainFrame.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+MainFrame.BorderSizePixel = 0
+MainFrame.Draggable = true
+MainFrame.Position = UDim2.new(0.25, 0, 0.25, 0)
+MainFrame.Size = UDim2.new(0.150000006, 0, 0.100000001, 0)
+
+Deco.Name = "Deco"
+Deco.Parent = MainFrame
+Deco.BackgroundColor3 = Color3.new(1, 1, 1)
+Deco.BackgroundTransparency = 0.89999997615814
+Deco.BorderSizePixel = 0
+Deco.Size = UDim2.new(1, 0, 0.300000012, 0)
+Deco.Font = Enum.Font.SourceSansBold
+Deco.FontSize = Enum.FontSize.Size14
+Deco.Text = "your mum gay"
+Deco.TextColor3 = Color3.new(1, 1, 1)
+Deco.TextScaled = true
+Deco.TextSize = 14
+Deco.TextWrapped = true
